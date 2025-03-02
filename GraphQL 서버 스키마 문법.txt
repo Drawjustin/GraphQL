@@ -1,0 +1,31 @@
+타입 시스템
+- 데이터 구조를 명확하게 정의하여, 서버와 클라이언트간의 데이터 전달을 일관되고 정확하게 해주는 중요한 개념
+
+1. Scalar Type : Int,Float,String,Boolean,ID
+2. Enum Type : 미리 정의된 값의 집합을 가지는 타입
+3. Object Type : 여러 필드를 포함하는 복합 타입
+4. Input Type : Mutation 인수로 사용되는 타입
+5. Query Type : 데이터를 조회하는데 사용되는 루트 타입
+6. Mutation Type : 데이터를 변경하는데 사용되는 루트 타입
+7. Subscription Type : 실시간 데이터를 처리하는데 사용되는 루트 타입
+8. Interface : 여러 객체 타입이 공통으로 가져야 하는 필드를 정의
+9. Union Type : 여러 객체 타입 중 하나를 반환할 수 있는 타입
+
+
+Schema Definition Language (SDL)
+
+GraphQL 스키마를 작성하는 언어
+타입 시스템의 요소들을 문서화
+직관적이고 읽기 쉬운 문법
+
+Custom Scalar 타입
+- 서버에서 추가적인 개발을 통해 원하는 타입을 만들 수 있다.
+
+
+1. 요구사항 분석
+2. 데이터베이스 설계
+3. 스키마 모델링 및 작성
+4. 문서화 및 시각화
+5. 서버 프로젝트 초기화
+6. 리졸버 작성 및 테스트
+7. 프론트 엔드 연결

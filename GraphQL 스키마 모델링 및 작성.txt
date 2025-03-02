@@ -1,0 +1,4 @@
+1. Obejct Type + Interface Type
+2. Query Type + Union Type
+3. Mutation Type
+4. Subscription Type
