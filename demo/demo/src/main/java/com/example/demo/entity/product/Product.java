@@ -1,6 +1,8 @@
 package com.example.demo.entity.product;
 
-public interface Product {
+import com.example.demo.entity.SearchResult;
+
+public interface Product extends SearchResult {
     String getId();
     String getName();
     Double getPrice();

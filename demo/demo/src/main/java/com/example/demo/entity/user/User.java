@@ -1,10 +1,11 @@
 package com.example.demo.entity.user;
 
+import com.example.demo.entity.SearchResult;
 import com.example.demo.entity.cart.Cart;
 
 import java.time.OffsetDateTime;
 
-public class User {
+public class User implements SearchResult {
     private String id;
     private String name;
     private String email;

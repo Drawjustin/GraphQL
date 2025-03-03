@@ -8,6 +8,7 @@ import org.apache.coyote.BadRequestException;
 import org.springframework.stereotype.Service;
 
 import java.time.OffsetDateTime;
+import java.util.List;
 import java.util.UUID;
 
 @Service
@@ -20,6 +21,9 @@ public class UserService {
         this.cartService = cartService;
     }
 
+    public List<User> getUsers(){
+        return database.users;
+    }
     public User getUser(String userId) throws BadRequestException {
         return database.users.stream()
                 .filter(user -> user.getId().equals(userId))
