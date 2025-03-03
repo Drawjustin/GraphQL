@@ -1,3 +1,3 @@
 type Subscription{
-    newProduct(productName: String!): Product!
+    newProduct(productName: String): Product!
 }
