@@ -11,9 +11,15 @@
   "description": "",
   "dependencies": {
     "@graphql-tools/merge": "^9.0.21",
+    "@graphql-tools/schema": "^10.0.20",
     "apollo-server-express": "^3.13.0",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "graphql": "^16.10.0",
-    "graphql-scalars": "^1.24.1"
+    "graphql-scalars": "^1.24.1",
+    "graphql-subscriptions": "^3.0.0",
+    "graphql-ws": "^6.0.4",
+    "subscriptions-transport-ws": "^0.11.0",
+    "ws": "^8.18.1"
   }
 }
